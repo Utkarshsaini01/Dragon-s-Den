@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-right {
+  text-align: right;
+}
+
+.logo {
+  width: 100px;
+  height: 65px;
+  margin-top: 3px;
+  float: left;
+  border-radius: 1%;
+  margin-left: 20px;
+}
+
+/* Common in Navbar and Footer */
+.links-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.links-ul {
+  background-color: black;
+  padding: 9px;
+  margin: 0px;
+  color: white;
+  height: 45px;
+  font-size: 1.3rem;
+}
+
+.links-ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+
+.links-ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+ background-color: black;
+  color: white;
+}
+
+.footer p {
+  font-size: 1.3rem;
+  padding: 7px 0 0 0;
+  height: 34px;
+  margin: 0;
+}
+
+
+/* Signup */
+
+.signupform {
+    position: relative;
+    width: 700px;
+    height: 450px;
+    left: 370px;
+    top: 30px;
+    background: linear-gradient(90.2deg, #9c0246 7.57%, black 96%);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.signupform h1{
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+
+
+.signupform .inputBox {
+    display: block;
+    margin: 20px 160px;
+    padding: 13px 65px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+/* Login Page */
+
+.loginform{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 420px;
+    top: 55px;
+    background: linear-gradient(90.2deg, #9c0246 7.57%, black 96%);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.loginform h1{
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+
+.loginform .inputBox{
+    display: block;
+    margin: 20px 120px;
+    padding: 13px 65px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+.btn {
+    font-size: 1.6rem;
+    padding: 7px 38px;
+    margin-top: 15px;
+    margin-left: -8px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* Home Page */
+
+.main {
+  height: 593px;
+  background-image: linear-gradient(#9c0246, black);
+  background-repeat: no-repeat;
+  padding: 50px;
+  padding-bottom: 0;
+}
+
+.boxMain {
+  height: 70vh;
+  width: 55vw;
+  margin: auto;
+  /* background-color: black;
+      opacity: 0.5; */
+  display: flex;
+}
+.box1,
+.img1 {
+  display: flex;
+  height: 70vh;
+  width: 27vw;
+  position: relative;
+}
+
+.box2 {
+  /* background-color: black;
+    opacity: 0.5; */
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 70vh;
+  width: 27vw;
+  /* margin-right: 200px; */
+}
+
+.text1 {
+  z-index: 1;
+  position: absolute;
+  right: 2px;
+  font-size: 34px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.text2 {
+  color: white;
+  font-size: 34px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  margin-left: 5px;
+  font-weight: 1000;
+}
+
+.para {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 120px;
+  padding: 20px;
+}
+
+
+
+/* Product Component */
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.column{
+  flex: 20%;
+  height: 51%;
+  margin-bottom: 10px;
+}
+
+.pcard {
+  margin: 5px;
+  height: 51%;
+  flex: 33.333%;
+  background-color: #380858;
+  background-image: linear-gradient(black, #380858);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.pimage{
+  width: 300px;
+  margin: 6px;
+  padding: 10px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.pheading {
+  color: white;
+    letter-spacing: 1mm;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 3px 3px 3px #890442;
+}
+
+.pinfo {
+  color: white;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+
+.pview {
+    margin: 20px;
+    margin-left: 33%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px;
+    padding-inline: 22px;
+    margin-bottom: 10px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 1.1rem;
+}
+
+.pview:hover{
+  color: white;
+  background-image: linear-gradient(black, #9c0246);
+}
+
+.pview a{
+  text-decoration: none;
+  color: black;
+}
+
+.pview a:hover{
+  color: white;
+}
+
+.timepass{
+  height: 60px;
+}
+
+
+/* Add Product */
+
+.product{
+  margin-left: 30%;
+  margin-top: 2%;
+  width: 34%;
+  height: 30%;
+  background: linear-gradient(90.2deg, #9c0246 7.57%, black 96%);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 61px;
+  padding-bottom: 0px;
+}
+
+.product h1 {
+  margin: 2% 8%;
+} 
+
+.product .btn {
+  margin: 2% 8%;
+} 
+
+.product .inputBox{
+  display: block;
+  margin-top: 10px;
+  margin-left: 66px;
+  padding: 8px 61px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.textarea {
+  margin-top: 6px;
+  margin-left: 0px;
+  padding: 4px 4px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+/* Profile Page */
+
+.profilediv .row{
+  margin: 10px;
+}
+
+.profilediv .column{
+  float: left;
+  height: 51%;
+  margin-bottom: 10px;
+}
+
+.profilediv .pcard {
+  margin: 5px;
+  height: 51%;
+  background-color: #380858;
+  background-image: linear-gradient(black, #380858);
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Product Details */
+
+.cont{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121111;
+  z-index: -1;
+}
+
+#yt {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 21px;
+  height: 400px;
+  z-index: -1;
+}
+
+.head{
+    color: white;
+    /* margin: auto;
+    width: 50%; */
+    position: absolute;
+    left: 43%;
+    top: 6%;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #890442;
+
+}
+.desc {
+  background-image: linear-gradient(#9c0246, black);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  width: 40%;
+  position: absolute;
+  right: 2%;
+  top: 20%;
+  height: 360px;
+  padding: 1.5%;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.desc p {
+  padding: 5px;
+  margin: 10px;
+}
+
+.equity{
+    color: white;
+}
+
+.pay{
+  position: absolute;
+  right: 20%;
+  top: 60%;
+  background-color: rgb(240, 237, 237);
+  padding: 0.8%;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.pay:hover{
+  color: white;
+  background-color: #890442;
+}
+
+/* .para{
+    width: 40%;
+} */
